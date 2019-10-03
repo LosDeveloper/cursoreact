@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native'
+import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
     ex: {
@@ -6,8 +6,18 @@ export default StyleSheet.create({
         marginVertical: 5,
         borderRadius: 10,
         borderWidth: 2,
-        borderColor:'#222',
+        borderColor: '#222',
         fontSize: 24,
         fontWeight: 'bold',
+    },
+
+    input: {
+        height: 70,
+        fontSize: 40,
+        borderColor: 'gray',
+        borderWidth: 1
+    },
+    font40: {
+        fontSize: 40
     }
 })
